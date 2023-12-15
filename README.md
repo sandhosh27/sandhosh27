@@ -1,16 +1,24 @@
 ### Hi there 👋
 
-<!--
-**sandhosh27/sandhosh27** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm SANDHOSH, Welcome to my GitHub profile!
 
-Here are some ideas to get you started:
+  ## About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🌟 Brief introduction about yourself.
+- 🎓 Studying at NSCET in B.TECH /Artificial intelligence and data science.
+- 🌍 Passionate about: Machine learning /Full stack.
+
+
+
+## Skills
+
+- 💻 Programming Languages: Python, HTML, CSS, JavaScript
+- 🛠️ Technologies & Tools: Bootstrap, SQL, Flask, PostgreSQL.
+
+
+## Get in Touch
+
+- 📫 You can reach me via [Email](sandhoshgowravan@gmail.com).
+- 🌐 Connect with me on [LinkedIn](https://www.linkedin.com/in/sandhosh-g-884b7b279/).
+
+  Thank you for visiting! Feel free to explore my repositories and get in touch. 😊
