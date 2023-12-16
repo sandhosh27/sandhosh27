@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #00b4db, #BA0E38);
+  }
+
+  .login-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    
+  }
+
+  .login-container h2 {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #00b4db;
+    outline: none;
+    font-size: 16px;
+    color: #1E0115;
+    transition: border-bottom 0.3s;
+    background: rgba(255, 255, 255, 0.2); /* Transparent background */
+  }
+
+  .form-group input:focus {
+    border-bottom: 2px solid #0083b0;
+  }
+
+  .submit-button {
+    background: #00b4db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .submit-button:hover {
+    background: #0083b0;
+  }
+</style>
+</head>
+<body>
+
+<div class="login-container">
+  <h2>Login</h2>
+  <form>
+    <div class="form-group">
+      <input type="text" placeholder="Username" id="username" required>
+    </div>
+    <div class="form-group">
+      <input type="password" placeholder="Password" id="password" required>
+    </div>
+    <button type="button" id="submit" class="submit-button">Login</button>
+  </form>
+</div>
+
+<script>
+  document.getElementById('submit').addEventListener('click', function() {
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+
+    if (username === 'santhosh' && password === 'santhosh00777') {
+      window.location.href = 'login2.html';
+    }
+  });
+</script>
+
+</body>
+</html>

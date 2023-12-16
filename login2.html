@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #F76FCE, #82CEA9  );
+        }
+
+        .form-container {
+             background: rgba(, , , 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px; /* Added for better responsiveness */
+            width: 100%; /* Added for better responsiveness */
+            font-family:inherit;
+            padding-bottom: 50px;
+
+
+        } 
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            display: block;
+        }
+
+        .form-group input {
+            width: calc(100% - 16px);
+            padding: 15px;
+            border: transparent;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: border-bottom 0.9s;
+            border-bottom: 2px solid #CDA5C1;
+        }
+
+        .form-group input:focus {
+            outline: none;
+        }
+
+        .submit-btn {
+            background: #ee0979;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s; /* Added transition for smooth hover effect */
+
+
+        }
+
+        .submit-btn:hover {
+            background: #008080 ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="regnumber">Registration Number:</label>
+                <input type="text" id="regnumber" name="regnumber" required>
+            </div>
+            <div class="form-group">
+                <label for="year">Year:</label>
+                <input type="text" id="year" name="year" required>
+            </div>
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <input type="text" id="department" name="department" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+
+            <button type="submit" class="submit-btn">Register</button>
+            <br>
+        </form>
+    </div>
+</body>
+</html>
