@@ -12,8 +12,9 @@ I'm SANDHOSH, Welcome to my GitHub profile!
 
 ## Skills
 
-- 💻 Programming Languages: Python, HTML, CSS, JavaScript
+- 💻 Programming Languages: Python, JavaScript
 - 🛠️ Technologies & Tools: Bootstrap, SQL, Flask, PostgreSQL.
+- Others: HTML,CSS,BOOTSTRAP,DJANGO....
 
 
 ## Get in Touch
